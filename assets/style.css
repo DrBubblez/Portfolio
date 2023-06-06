@@ -1,0 +1,120 @@
+:root {
+  --color-1: #673ab7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: rgb(145, 30, 30);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+/*Header*/
+.header {
+  background-color: var(--color-1);
+  padding:12px 0;
+}
+
+.header .logo,
+.header .nav {
+  padding: 0 15px;
+}
+
+.header .logo a {
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.header .nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.header .nav ul li a {
+  display: block;
+  font-size: 16px;
+  padding: 10px 0;
+  color: rgba(255,255,255,0.7);
+  text-transform: capitalize;
+  transform: all 0.5s ease;
+}
+
+.header .nav ul li a:hover,
+.header .nav ul li a.active {
+  color: #ffffff;
+}
+
+section {
+  padding: 50px;
+}
+
+/*About Me Section*/
+.about-me {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-me img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+/*My Work Section*/
+.project {
+  display: inline-block;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.project img {
+  width: 200px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.project img:hover {
+  transform: scale(1.1);
+}
+
+.contact {
+  text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+  .project img {
+    width: 100%;
+  }
+}
