@@ -5,22 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Harrison M.'s Portfolio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/reset.css">
+        <link rel="stylesheet" href="assets/style.css">
     </head>
   
     <body>
-        <nav>
-            <h1>My Portfolio</h1>
-        </nav>
+      <header class="header">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="logo">
+              <a href="#">logo</a>
+            </div>
+            <nav class="nav">
+              <ul>
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-work">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
         
         <section>
-            <div class="about-me">
+            <div class="about-me" id="about-me">
               <h2>About Me</h2>
               <img src="your-image.jpg" alt="Your Name">
               <p>Description Here</p>
             </div>
         
-            <div class="projects">
+            <div class="projects" id="my-work">
               <h2>My Work</h2>
               <div class="project">
                 <a href="project1.html">
@@ -38,7 +53,7 @@
               <!-- Add more project blocks as needed -->
             </div>
         
-            <div class="contact">
+            <div class="contact" id="contact">
               <h2>Contact</h2>
               <p>Contact Info Here</p>
             </div>
