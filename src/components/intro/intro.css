@@ -14,7 +14,7 @@
     right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 100vh;
+    height: 100%;
 }
 
 .introContent {
@@ -43,14 +43,3 @@
     letter-spacing: .5px;
 }
 
-@media screen and (max-width:840px) {
-    .headshot {
-        right: -10vw;
-    }
-    .introContent {
-        font-size: 10vw;
-    }
-    .hello {
-        font-size: 4.5vw;
-    }
-}
