@@ -6,7 +6,7 @@ import headshot from "../../img/headshot1.png";
 const Intro = () => {
     return (
         <section id="intro">
-            <div className="introContent">
+            <div className="introContent text-wrap">
                 <span className="welcome">Hello,</span>
                 <span className="introText">I'm <span className="introName">Harrison Miner</span><br/>Full-Stack Web Developer</span>
                 <p className="introPara">Welcome to my digital realm! I'm a passionate Full Stack Web Developer with<br/> a knack
