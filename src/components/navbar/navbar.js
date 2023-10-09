@@ -11,7 +11,7 @@ const Navbar = () => {
                 <button className="navbar-toggler" type="button" data-bs-id="" data-bs-toggle="offcanvas" data-bs-target= "#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div className="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
                     <div className="desktopMenu navbar-nav">
                         <Link className="desktopMenuListItem nav-item nav-link">Home</Link>
                         <Link className="desktopMenuListItem nav-item nav-link">About</Link>
