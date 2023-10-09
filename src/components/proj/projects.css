@@ -1,0 +1,24 @@
+.carousel-item {
+  height: 32rem;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.project {
+  position: absolute;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.carousel-item h3 {
+  background-color: rgb(113, 105, 122);
+  opacity: .5;
+  padding: 10px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.quiz {
+  background-image: url("./project-imgs/1_jsQuiz.png");
+}
