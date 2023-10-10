@@ -3,7 +3,7 @@ import './projects.css';
 
 function Projects () {
     return (
-        <div id="carouselExampleIndicators" className="project carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="projects" className="project carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active quiz">
                     <h3>JavaScript Quiz</h3>

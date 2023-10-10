@@ -22,7 +22,7 @@ const About = () => {
                                 part of the ever-evolving tech world and look forward to partnering with you on your next project!
                             </p>
                             <div className="btn-bar text-center">
-                                <a className="px-btn theme" href="#Contact"><img src={messageIcon} className="icon" alt="icon"></img>Contact</a>
+                                <a className="px-btn theme" href="#contact"><img src={messageIcon} className="icon" alt="icon"></img>Contact</a>
                                 <a className="px-btn theme" href="https://github.com/DrBubblez"><img src={githubIcon} className="icon" alt="icon"></img>GitHub</a>
                                 <a className="px-btn theme" href="https://www.linkedin.com/in/harrison-miner-7a60351b8/"><img src={linkedin} className="icon" alt="icon"></img>LinkedIn</a>
                             </div>
