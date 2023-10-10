@@ -2,6 +2,8 @@ import React from "react";
 import "./about.css"
 import aboutPic from "../../img/turtle-pic.png"
 import messageIcon from "../../img/message-50.png"
+import githubIcon from "../../img/github-96.png"
+import linkedin from "../../img/linkedin-96.png"
 
 const About = () => {
     return (
@@ -21,6 +23,8 @@ const About = () => {
                             </p>
                             <div className="btn-bar text-center">
                                 <a className="px-btn theme" href="#Contact"><img src={messageIcon} className="icon" alt="icon"></img>Contact</a>
+                                <a className="px-btn theme" href="https://github.com/DrBubblez"><img src={githubIcon} className="icon" alt="icon"></img>GitHub</a>
+                                <a className="px-btn theme" href="https://www.linkedin.com/in/harrison-miner-7a60351b8/"><img src={linkedin} className="icon" alt="icon"></img>LinkedIn</a>
                             </div>
                         </div>
                     </div>
