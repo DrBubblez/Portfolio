@@ -1,45 +1,58 @@
 import React from "react";
 import './projects.css';
-import quiz from "./project-imgs/1_jsQuiz.png";
-import scheduler from "./project-imgs/2_scheduler.png";
-import readme from "./project-imgs/3_readme.png";
-import svg from "./project-imgs/4_svg.png";
-import weather from "./project-imgs/5_weatherApp.png";
-import notes from "./project-imgs/6_note-app.png";
-import mysql from "./project-imgs/7_mysql.png";
-import orm from "./project-imgs/8_orm.png";
-import nosql from "./project-imgs/9_nosql.png";
-import jate from "./project-imgs/10_JATE.png";
 
 function Projects () {
     return (
-        <div id="carouselExampleIndicators" class="project carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active quiz">
+        <div id="carouselExampleIndicators" className="project carousel slide carousel-fade" data-bs-ride="carousel">
+            <div className="carousel-inner">
+                <div className="carousel-item active quiz">
                     <h3>JavaScript Quiz</h3>
-                    <a href="https://github.com/DrBubblez/javascript-quiz" class="btn btn-primary">View project</a>
+                    <a href="https://github.com/DrBubblez/javascript-quiz" className="btn btn-primary">View project</a>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item scheduler">
                     <h3>Work Planner</h3>
-                    <a href="https://github.com" class="btn btn-primary">View project</a>
+                    <a href="https://github.com/DrBubblez/Work-Planner" className="btn btn-primary">View project</a>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item readme">
                     <h3>README Generator</h3>
-                    <a href="https://github.com" class="btn btn-primary">View project</a>
+                    <a href="https://github.com/DrBubblez/README-generator" className="btn btn-primary">View project</a>
+                </div>
+                <div className="carousel-item svg">
+                    <h3>SVG Generator</h3>
+                    <a href="https://github.com/DrBubblez/SVG-Logo-Maker" className="btn btn-primary">View project</a>
+                </div>
+                <div className="carousel-item weather">
+                    <h3>Weather Dashboard</h3>
+                    <a href="https://github.com/DrBubblez/Weather-App" className="btn btn-primary">View project</a>
+                </div>
+                <div className="carousel-item notes">
+                    <h3>Note Taker</h3>
+                    <a href="https://github.com/DrBubblez/Express-Notes-App" className="btn btn-primary">View project</a>
+                </div>
+                <div className="carousel-item mysql">
+                    <h3>MySQL Employee Tracker</h3>
+                    <a href="https://github.com/DrBubblez/SQL-Employee-DB" className="btn btn-primary">View project</a>
+                </div>
+                <div className="carousel-item orm">
+                    <h3>ORM E-Commerce Backend</h3>
+                    <a href="https://github.com/DrBubblez/ORM-Project" className="btn btn-primary">View project</a>
+                </div>
+                <div className="carousel-item nosql">
+                    <h3>NoSQL Social Network API</h3>
+                    <a href="https://github.com/DrBubblez/NoSQL-APIs" className="btn btn-primary">View project</a>
+                </div>
+                <div className="carousel-item jate">
+                    <h3>PWA Text Editor</h3>
+                    <a href="https://github.com/DrBubblez/PWA-Project" className="btn btn-primary">View project</a>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
             </button>
         </div>
     )
