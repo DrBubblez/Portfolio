@@ -6,7 +6,7 @@
 }
 
 .project {
-  margin: 50px 100px 50px 100px;
+  margin: 50px 200px 50px 200px;
   position: absolute;
   text-align: center;
 }
@@ -18,9 +18,9 @@
   text-shadow: 2px 2px 2px black;
 }
 
-.btn {
+/* .btn {
   margin-top: 400px;
-}
+} */
 
 .quiz {
   background-image: url("./project-imgs/1_jsQuiz.png");

@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg sticky-top bg-body-tetriary">
+        <nav className="navbar navbar-dark navbar-expand-lg sticky-top bg-dark bg-opacity-75">
             <div className="container-fluid">
                 <img src={logo} alt="logo" className='logo navbar-brand'/>
                 <button className="navbar-toggler" type="button" data-bs-id="" data-bs-toggle="offcanvas" data-bs-target= "#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
