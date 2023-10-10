@@ -3,7 +3,7 @@ import  "./contact.css";
 
 function Contact() {
     return (
-        <div className="container mx-auto p-2">
+        <div id="contact" className="container mx-auto p-2">
             <h1 className="text-center">Contact Me</h1>
             <form target="_blank" action="https://formsubmit.co/harrisonminer59@gmail.com" method="POST">
               <div className="form-group">

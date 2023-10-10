@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {} from 'react';
 import './navbar.css';
 import logo from '../../img/logo.png';
 import { Link } from 'react-scroll';
+
 
 const Navbar = () => {
     return (
@@ -13,10 +14,10 @@ const Navbar = () => {
                 </button>
                 <div className="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
                     <div className="desktopMenu navbar-nav">
-                        <Link className="desktopMenuListItem nav-item nav-link">Home</Link>
-                        <Link className="desktopMenuListItem nav-item nav-link">About</Link>
-                        <Link className="desktopMenuListItem nav-item nav-link">Projects</Link>
-                        <Link className="desktopMenuListItem nav-item nav-link">Contact</Link>
+                        <Link className="desktopMenuListItem nav-item nav-link" to='intro' offset={-100}>Home</Link>
+                        <Link className="desktopMenuListItem nav-item nav-link" to='about' offset={-100}>About</Link>
+                        <Link className="desktopMenuListItem nav-item nav-link" to='projects' offset={-250}>Projects</Link>
+                        <Link className="desktopMenuListItem nav-item nav-link" to='contact' offset={-100}>Contact</Link>
                     </div>
                 </div>
             </div>
