@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9b1a1d03.css",
+    "main.js": "/Portfolio/static/js/main.c8452778.js",
+    "static/media/5_weatherApp.png": "/Portfolio/static/media/5_weatherApp.b0fc9378035679caa42b.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.4debf681ae3ac4ba7765.png",
+    "static/media/headshot1.png": "/Portfolio/static/media/headshot1.4263d03dbbba3cd2e646.png",
+    "static/media/turtle-pic.png": "/Portfolio/static/media/turtle-pic.ef3d66dff2f8faa1779f.png",
+    "static/media/2_scheduler.png": "/Portfolio/static/media/2_scheduler.cd5bf8cc794e85a9e78a.png",
+    "static/media/9_nosql.png": "/Portfolio/static/media/9_nosql.9ad2249b5ff66d924dec.png",
+    "static/media/7_mysql.png": "/Portfolio/static/media/7_mysql.6426d8edd6cb970e8aaf.png",
+    "static/media/8_orm.png": "/Portfolio/static/media/8_orm.26f1757673755d64e062.png",
+    "static/media/6_note-app.png": "/Portfolio/static/media/6_note-app.065891f80ca90d2c1061.png",
+    "static/media/3_readme.png": "/Portfolio/static/media/3_readme.b13b832b32b6efac5564.png",
+    "static/media/4_svg.png": "/Portfolio/static/media/4_svg.a43958241ed7efdb4d53.png",
+    "static/media/10_JATE.png": "/Portfolio/static/media/10_JATE.24460f18b56e001641b4.png",
+    "static/media/1_jsQuiz.png": "/Portfolio/static/media/1_jsQuiz.c2e23cef97d6449d999e.png",
+    "index.html": "/Portfolio/index.html",
+    "main.9b1a1d03.css.map": "/Portfolio/static/css/main.9b1a1d03.css.map",
+    "main.c8452778.js.map": "/Portfolio/static/js/main.c8452778.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b1a1d03.css",
+    "static/js/main.c8452778.js"
+  ]
+}
