@@ -6,19 +6,60 @@
 }
 
 .project {
+  margin: 50px 100px 50px 100px;
   position: absolute;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
   text-align: center;
 }
 
 .carousel-item h3 {
   background-color: rgb(113, 105, 122);
-  opacity: .5;
+  opacity: .85;
   padding: 10px;
   text-shadow: 2px 2px 2px black;
 }
 
+.btn {
+  margin-top: 400px;
+}
+
 .quiz {
   background-image: url("./project-imgs/1_jsQuiz.png");
+}
+
+.scheduler {
+  background-image: url("./project-imgs/2_scheduler.png");
+}
+
+.readme {
+  background-image: url("./project-imgs/3_readme.png");
+}
+
+.svg {
+  background-image: url("./project-imgs/4_svg.png");
+}
+
+.weather {
+  background-image: url("./project-imgs/5_weatherApp.png");
+}
+
+.notes {
+  background-image: url("./project-imgs/6_note-app.png");
+}
+
+.mysql {
+  background-image: url("./project-imgs/7_mysql.png");
+}
+
+.orm {
+  background-image: url("./project-imgs/8_orm.png");
+}
+
+.nosql {
+  background-image: url("./project-imgs/9_nosql.png");
+}
+
+.jate {
+  background-image: url("./project-imgs/10_JATE.png");
 }
